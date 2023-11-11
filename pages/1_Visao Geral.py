@@ -90,6 +90,10 @@ def color_name(color_code):
     }
     return COLORS[color_code]
 
+def convert_df(df):
+    '''Função para conversão do arquivo para csv'''
+    return df.to_csv().encode('utf-8')
+
 # ------------------------------------------------------
 # Limpeza do dataframe
 # ------------------------------------------------------
@@ -147,6 +151,16 @@ options_pais = st.sidebar.multiselect(
 # Filtro de paises
 select_lin = df1['country'].isin(options_pais)
 df1 = df1.loc[select_lin, :]
+
+#Criar o botão de dowunload do dataframe
+csv = convert_df(df1)
+
+st.sidebar.download_button(
+    label='Baixar Dataset',
+    data=csv,
+    file_name='df_1.csv',
+    mime='text/csv'
+)
 
 # --------------------------------------------------------------
 # LAYOUT STREAMLIT
