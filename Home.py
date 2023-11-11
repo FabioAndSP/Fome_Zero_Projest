@@ -6,7 +6,7 @@ from PIL import Image
 st.set_page_config(page_title='Home')
 
 #image_path = 'logo.jpg'
-image = Image.open(logo.jpg)
+image = Image.open('logo.jpg')
 st.sidebar.image(image, width=250)
 
 st.sidebar.header(
