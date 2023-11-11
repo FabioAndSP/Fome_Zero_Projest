@@ -18,7 +18,7 @@ st.set_page_config(layout="wide")
 # ------------------------------------------------------
 # Leitura do arquivo .csv
 # ------------------------------------------------------
-df = pd.read_csv('datasets\zomato.csv')
+df = pd.read_csv('datasets/zomato.csv')
 
 # ------------------------------------------------------
 # Funções
