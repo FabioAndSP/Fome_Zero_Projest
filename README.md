@@ -110,4 +110,5 @@ Com a análise dos dados foi possível criar uma ferramenta a qual terá grande 
 
 # Próximos Passos
 
-Criar análises para o aumento de restaurantes em torno do mundo, tendo em vista que a grande maioria dos cadastros se concentram em países como Índia, Philipinas e Emirados Árabes. Outro ponto que seria muito interessante de se verificar, seria aumentar a ofertas em cidades turísticas.
+1. Criar análises para o aumento de restaurantes em torno do mundo, tendo em vista que a grande maioria dos cadastros se concentram em países como Índia, Philipinas e Emirados Árabes.
+2.  Buscar por cidades turísticas em torno mundo e a quantidade de restaruantes cadastrados visando o aumento de cadastros..
