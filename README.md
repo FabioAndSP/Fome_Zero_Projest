@@ -102,6 +102,7 @@ Nos Estados Unidos os restaurantes do tipo de culinária japonesa são mais caro
 # O Produto Final do Projeto
 
 Com a análise descritiva dos dados elaborei um “dashboard” com o auxilio d ferramenta “Streamlit”, o qual poderá ser acessado a qualquer hora e de qualquer dispositivo conectado a internet.
+Segue o link para acesso ao Dashboard: https://fabioand-fomezero-ftc.streamlit.app/
 
 # Conclusão
 
