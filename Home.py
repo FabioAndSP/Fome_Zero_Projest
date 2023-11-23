@@ -22,10 +22,12 @@ st.markdown(
     
     ### Como utilizar este Dashboard?
         
-    - Na página "Visão Geral" temos a noção do tamanho da empresa nos dias atuais, por meio 
-    dos números de paises, cidadades e restaurantes atendidos.
+    - Na "Visão Geral" é possível identificar o crescimento da empresa, por meio dos números de paises, 
+    cidades e restaurantes atendidos.
     
-    - Na página "Análises" temos as analises em categorias, que são um compilado das principais perguntas do CEO:
+    - Em "Análises", dividido em categorias, temos um compilado das principais das respostas as perguntad feitas
+    ao time de dados:
+    
         - Países - Analise quantitativa de restaurantes, avaliações e preço do prato para duas pessoas;
             
         - Cidades - Analise que demonstra como estão distribuídos os restaurantes conforme a avalição e
