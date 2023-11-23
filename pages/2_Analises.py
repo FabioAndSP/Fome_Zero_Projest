@@ -187,7 +187,7 @@ with tab1:
         fig.update_xaxes(title='Países', title_font_color='white',
                          ticks='outside', tickfont_color='White')
         fig.update_yaxes(title='Quantidade de Restaurantes',
-                         title_font_color='white', ticks='outside', tickfont_color='black')
+                         title_font_color='white', ticks='outside', tickfont_color='white')
         fig.update_traces(marker_line_color='rgb(8,48,107)',
                           marker_line_width=1.5)
         st.plotly_chart(fig, use_conteiner_widt=True)
